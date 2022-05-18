@@ -12,3 +12,27 @@
   --square: #630a62;
   --skin-nose: #d19471;
 }
+
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: var(--background);
+}
+
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--square);
+  clip-path: circle(50%);
+  position: relative;
+  width: 630px;
+  height: 630px;
+}
