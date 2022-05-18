@@ -32,7 +32,27 @@ body {
   align-items: center;
   background: var(--square);
   clip-path: circle(50%);
-  position: relative;
+  position: absolute;
   width: 630px;
   height: 630px;
+}
+
+.body {
+  clip-path: circle(50% at 50% 50%);
+  background: var(--body);
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 390px;
+  transform: rotate(180deg);
+}
+
+.head {
+  background: var(--skin);
+  box-shadow: 0px 0px 3px 1px var(--skin);
+  border-radius: 100px;
+  position: absolute;
+  width: 200px;
+  height: 480px;
+  z-index: 1;
 }
