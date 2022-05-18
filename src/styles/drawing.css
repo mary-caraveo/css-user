@@ -189,3 +189,25 @@ body {
   left: 3.6px;
   transform: rotate(155.5deg);
 }
+
+.ear_right {
+  background: var(--ear);
+  box-shadow: 0px 0px 1px 1px var(--ear);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: -65px;
+  left: 80px;
+}
+
+.ear_left {
+  background: var(--ear);
+  box-shadow: 0px 0px 1px 1px var(--ear);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: -65px;
+  right: 80px;
+}
