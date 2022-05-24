@@ -11,6 +11,7 @@
     clip-path: circle(60%);
     width: 100%;
     height: 615px;
+    animation: none;
   }
 
   .body {
