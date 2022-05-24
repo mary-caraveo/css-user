@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap");
+
 :root {
   --background: #a271d1;
   --skin: #fdb48b;
@@ -11,6 +13,7 @@
   --body: #af0170;
   --square: #630a62;
   --skin-nose: #d19471;
+  --text: #ffffff;
 }
 
 body {
@@ -210,4 +213,40 @@ body {
   position: relative;
   top: -65px;
   right: 80px;
+}
+
+.text {
+  position: absolute;
+  font-family: "Henny Penny", cursive;
+  font-size: 22px;
+  color: var(--text);
+  top: 40%;
+  left: 18%;
+  animation: bounce-in-right 5s ease-in-out;
+}
+
+@keyframes bounce-in-right {
+  0% {
+    opacity: 0;
+    transform: translateX(2000px);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translateX(-30px);
+  }
+
+  80% {
+    transform: translateX(10px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.name {
+  position: absolute;
+  top: -3rem;
+  left: -3rem;
 }
