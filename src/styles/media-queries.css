@@ -1,0 +1,35 @@
+@media (max-width: 575.98px) {
+  .background {
+    background: transparent;
+    clip-path: circle(60%);
+    width: 100%;
+  }
+
+  .body {
+    width: 360px;
+    height: 40vh;
+    top: 25rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .background {
+    width: 530px;
+    height: 530px;
+  }
+
+  .head {
+    height: 28rem;
+    top: 50px;
+  }
+
+  .beard {
+    height: 50%;
+  }
+
+  .hair {
+    width: 204px;
+    height: 108px;
+    top: -18px;
+  }
+}
