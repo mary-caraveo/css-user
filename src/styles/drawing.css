@@ -17,6 +17,7 @@
 }
 
 body {
+  background: var(--background);
   margin: 0;
   overflow: hidden;
 }
@@ -26,7 +27,6 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: var(--background);
 }
 
 .background {
@@ -221,7 +221,7 @@ body {
   font-size: 22px;
   color: var(--text);
   top: 40%;
-  left: 18%;
+  left: 16%;
   animation: bounce-in-right 5s ease-in-out;
 }
 
