@@ -2,11 +2,15 @@
   body {
     overflow-y: scroll;
   }
+  .container {
+    display: block;
+  }
 
   .background {
     background: transparent;
     clip-path: circle(60%);
     width: 100%;
+    height: 615px;
   }
 
   .body {
@@ -23,7 +27,7 @@
 
   .text {
     font-size: 18px;
-    top: 51rem;
+    top: 42rem;
     left: 45%;
     padding-bottom: 10px;
   }
